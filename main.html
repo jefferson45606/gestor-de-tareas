@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Tareas</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <div class="contenedor">
+    <h1>Gestor de Tareas</h1>
+    <div class="entrada-tarea">
+      <input type="text" id="entradaTarea" placeholder="Escribe tu tarea aquí">
+      <div class="botones">
+        <button id="agregarAlta" class="btn alta">Alta Importancia</button>
+        <button id="agregarBaja" class="btn baja">Baja Importancia</button>
+      </div>
+    </div>
+    <div class="listas-tareas">
+      <div class="caja-tareas">
+        <h2>Alta Importancia</h2>
+        <ul id="listaAlta"></ul>
+      </div>
+      <div class="caja-tareas">
+        <h2>Baja Importancia</h2>
+        <ul id="listaBaja"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

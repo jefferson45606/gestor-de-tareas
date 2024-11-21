@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 600px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.entrada-tarea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input#entradaTarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn.alta {
+  background-color: #e63946;
+}
+
+.btn.alta:hover {
+  background-color: #c72535;
+}
+
+.btn.baja {
+  background-color: #457b9d;
+}
+
+.btn.baja:hover {
+  background-color: #34648d;
+}
+
+.listas-tareas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.caja-tareas {
+  flex: 1;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.caja-tareas h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 8px 10px;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li:hover {
+  background-color: #e8e8e8;
+}
